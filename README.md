@@ -1,2 +1,1 @@
-# SPRING3
- My Own Examples
+This Repository includes Advanced Industrial JAVA EE Spring5 and Spring Boot2 Projects, using Hibernate/JPA and other related advanced frameworks and technologies. For basic Spring Projects NOT using MAVEN, using Hibernate/JPA and using only SpringCore, SpringMVC and SpringAOP modules, see: https://github.com/danielpm1982/SPRING . And, for intermediate-level Spring Projects, using MAVEN, and all Spring Modules, see: https://github.com/danielpm1982/SPRING2. All projects here have been created with Java JDK 12 and IntelliJ IDE. JAVA12+ compatible.
