@@ -11,6 +11,12 @@ public class HelloWorldRepositoryInMemory implements HelloWorldRepositoryInterfa
         this.clientInMemoryDB = new ArrayList<>();
     }
     @Override
+    public void openResources(){
+    }
+    @Override
+    public void closeResources(){
+    }
+    @Override
     public List<Client> getClients() {
         return clientInMemoryDB;
     }

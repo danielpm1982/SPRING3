@@ -6,6 +6,8 @@ public interface HelloWorldRepositoryInterface {
     public List<Client> getClients() throws Exception;
     public Client getClient(String email) throws Exception;
     public Client addClient(Client mockClient) throws Exception;
+    public void openResources();
+    public void closeResources();
 }
 
 /*

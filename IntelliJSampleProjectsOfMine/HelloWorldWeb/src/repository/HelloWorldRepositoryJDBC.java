@@ -1,6 +1,5 @@
 package repository;
 import entity.Client;
-
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -19,6 +18,32 @@ public class HelloWorldRepositoryJDBC implements HelloWorldRepositoryInterface {
         conn = null;
         statement = null;
         preparedStatement = null;
+    }
+    @Override
+    public void openResources(){
+        try{
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            conn = DriverManager.getConnection(DATABASE_URL,USER,PASSWORD);
+            statement = conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
+        } catch(SQLException | ClassNotFoundException ex) {
+            ex.printStackTrace(System.out);
+        }
+    }
+    @Override
+    public void closeResources(){
+        try{
+            if(conn!=null){
+                conn.close();
+            }
+            if(statement!=null){
+                statement.close();
+            }
+            if(preparedStatement!=null){
+                preparedStatement.close();
+            }
+        } catch(SQLException ex){
+            ex.printStackTrace(System.out);
+        }
     }
     @Override
     public List<Client> getClients() throws Exception{
@@ -76,30 +101,6 @@ public class HelloWorldRepositoryJDBC implements HelloWorldRepositoryInterface {
             }
         }
         return client;
-    }
-    public void openResources(){
-        try{
-            Class.forName("com.mysql.cj.jdbc.Driver");
-            conn = DriverManager.getConnection(DATABASE_URL,USER,PASSWORD);
-            statement = conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
-        } catch(SQLException | ClassNotFoundException ex) {
-            ex.printStackTrace(System.out);
-        }
-    }
-    public void closeResources(){
-        try{
-            if(conn!=null){
-                conn.close();
-            }
-            if(statement!=null){
-                statement.close();
-            }
-            if(preparedStatement!=null){
-                preparedStatement.close();
-            }
-        } catch(SQLException ex){
-            ex.printStackTrace(System.out);
-        }
     }
     private void insert(String insertSQL, String... argsToPreparedStatementSQL){
         try{

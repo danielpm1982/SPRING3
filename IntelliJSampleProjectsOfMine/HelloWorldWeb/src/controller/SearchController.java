@@ -1,7 +1,7 @@
 package controller;
 import entity.Client;
+import helper.HelloWorldRepositoryInitializer;
 import repository.HelloWorldRepositoryInterface;
-import repository.HelloWorldRepositoryJDBC;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -14,12 +14,12 @@ import java.io.IOException;
 public class SearchController extends HttpServlet {
     protected void doRequest(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-//        Get one of the following options of "repo", from the servletContext, according to the HelloWorldRepository you've enabled at the InitializerController options (in-memory, JDBC or JPA). Leave the other types disabled (commented).
-//        HelloWorldRepositoryInterface helloWorldRepositoryInterface = InitializerController.getRepoInstanceInMemory(req); //getting the "repo" instance dependency from the servletContext.
+//        Get *ONLY ONE* of the following options of "repo" (in-memory, JDBC or JPA), stored at the servletContext, using the HelloWorldRepositoryInitializer respective static get method.
+//        HelloWorldRepositoryInterface helloWorldRepositoryInterface = HelloWorldRepositoryInitializer.getRepoInstanceInMemory(req);
+//        HelloWorldRepositoryInterface helloWorldRepositoryInterface = HelloWorldRepositoryInitializer.getRepoInstanceJDBC(req);
+        HelloWorldRepositoryInterface helloWorldRepositoryInterface = HelloWorldRepositoryInitializer.getRepoInstanceJPA(req);
 
-        HelloWorldRepositoryInterface helloWorldRepositoryInterface = InitializerController.getRepoInstanceJDBC(req); //if the JDBC repo is to be used, please enable both the openResources as the closeResources lines below. If the in-memory repo above is to be used, comment them.
-        ((HelloWorldRepositoryJDBC)helloWorldRepositoryInterface).openResources();
-
+        helloWorldRepositoryInterface.openResources();
         String email = req.getParameter("email");
         RequestDispatcher rd;
         try {
@@ -29,11 +29,9 @@ public class SearchController extends HttpServlet {
             rd = req.getRequestDispatcher("result.jsp");
         } catch (Exception e) {
             req.setAttribute("searchError", e.getMessage());
-            rd = req.getRequestDispatcher("/");
+            rd = req.getRequestDispatcher("/form");
         }
-
-        ((HelloWorldRepositoryJDBC)helloWorldRepositoryInterface).closeResources();
-
+        helloWorldRepositoryInterface.closeResources();
         rd.forward(req, resp);
     }
     @Override

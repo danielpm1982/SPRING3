@@ -1,7 +1,7 @@
 package controller;
 import entity.Client;
+import helper.HelloWorldRepositoryInitializer;
 import repository.HelloWorldRepositoryInterface;
-import repository.HelloWorldRepositoryJDBC;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -13,13 +13,12 @@ import java.io.IOException;
 @WebServlet("/addClient")
 public class AddController extends HttpServlet {
     protected void doRequest(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//        Get *ONLY ONE* of the following options of "repo" (in-memory, JDBC or JPA), stored at the servletContext, using the HelloWorldRepositoryInitializer respective static get method.
+//        HelloWorldRepositoryInterface helloWorldRepositoryInterface = HelloWorldRepositoryInitializer.getRepoInstanceInMemory(req);
+//        HelloWorldRepositoryInterface helloWorldRepositoryInterface = HelloWorldRepositoryInitializer.getRepoInstanceJDBC(req);
+        HelloWorldRepositoryInterface helloWorldRepositoryInterface = HelloWorldRepositoryInitializer.getRepoInstanceJPA(req);
 
-//        Get one of the following options of "repo", from the servletContext, according to the HelloWorldRepository you've enabled at the InitializerController options (in-memory, JDBC or JPA). Leave the other types disabled (commented).
-//        HelloWorldRepositoryInterface helloWorldRepositoryInterface = InitializerController.getRepoInstanceInMemory(); //getting the "repo" instance dependency from the servletContext.
-
-        HelloWorldRepositoryInterface helloWorldRepositoryInterface = InitializerController.getRepoInstanceJDBC(req);
-        ((HelloWorldRepositoryJDBC)helloWorldRepositoryInterface).openResources();
-
+        helloWorldRepositoryInterface.openResources();
         String name = req.getParameter("name");
         String email = req.getParameter("email");
         Client mockClient = new Client(-1, name, email);
@@ -31,11 +30,9 @@ public class AddController extends HttpServlet {
             rd = req.getRequestDispatcher("result.jsp");
         } catch (Exception e) {
             req.setAttribute("addingError", e.getMessage());
-            rd = req.getRequestDispatcher("/");
+            rd = req.getRequestDispatcher("/form");
         }
-
-        ((HelloWorldRepositoryJDBC)helloWorldRepositoryInterface).closeResources();
-
+        helloWorldRepositoryInterface.closeResources();
         rd.forward(req, resp);
     }
     @Override

@@ -1,8 +1,14 @@
 package entity;
+import javax.persistence.*;
+
+@Entity
 public class Client {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private String name;
     private String email;
+    public Client(){}
     public Client(long id, String name, String email) {
         this.id = id;
         this.name = name;
@@ -36,4 +42,5 @@ public class Client {
     }
 }
 
-//a simple entity Client, manageable through any of the Repository instances.
+//a simple entity Client, manageable through any of the Repository instances. And, in the
+// case of JPA Repository, mapped for ORM persistence.
