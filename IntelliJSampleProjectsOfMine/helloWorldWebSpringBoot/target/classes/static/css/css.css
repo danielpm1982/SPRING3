@@ -1,0 +1,114 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+    background-color: black;
+    color: blanchedalmond;
+    margin-top: 2em;
+    margin-bottom: 6em;
+}
+.myLink{
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-decoration: none;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 0.5em 0.8em 0.5em 0.8em;
+}
+form{
+    border: chartreuse dashed thin;
+    width: 65%;
+    margin: 1em auto 3em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+.table{
+    display: table;
+    margin: auto;
+    border-collapse: separate;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+.formRow{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    display: table-row;
+}
+.formCell{
+    display: table-cell;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.formCellRight{
+    text-align: left;
+}
+.formCellLeft{
+    text-align: right;
+}
+ul.table{
+    width: 70%;
+    padding: 1em;
+    border-collapse: collapse;
+    margin: 2em auto 4em auto;
+}
+li.formRow{
+    color: blanchedalmond;
+}
+li .formCell{
+    padding-right: 1em;
+    border: blanchedalmond dashed thin;
+}
+label{
+    margin-right: 2em;
+}
+input[type=text]{
+    font-size: 1.1em;
+    border-radius: 10px;
+    padding: 0.3em;
+    width: 90%;
+}
+input[type=submit]{
+    font-size: 1.3em;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 0.5em 0.8em 0.5em 0.8em;
+}
+.inputSubmit{
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+    margin-top: 1.5em;
+}
+a:link{
+    color: green;
+}
+a:visited{
+    color: teal;
+}
+a:hover{
+    color: lime;
+}
+a:active{
+    color: red;
+}
+.errors{
+    color: red;
+    background-color: yellow;
+}
+span{
+    padding: 0.5em 1em 0.5em 1em;
+    font-size: 1.5em;
+    line-height: 2;
+}
+footer{
+    margin-top: 2.5em;
+}
+footer#index{
+    width: 50%;
+    margin: auto;
+    line-height: 2;
+}
+div.middle{
+    margin-top: 3em;
+    margin-bottom: 4em;
+}
