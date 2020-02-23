@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Catalog</title>
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+</head>
+<body>
+    <h1>Displaying all H2 DB Publishers !</h1>
+    <div class="centralContent">
+        <table>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>City</th>
+                <th>State</th>
+                <th>Country</th>
+                <th>Book(s)</th>
+            </tr>
+            <tr th:each="publisher:${publishers}">
+                <td th:text="${publisher.id}">id</td>
+                <td th:text="${publisher.name}">name</td>
+                <td th:text="${publisher.address}">address</td>
+                <td th:text="${publisher.city}">city</td>
+                <td th:text="${publisher.state}">state</td>
+                <td th:text="${publisher.country}">country</td>
+                <td th:text="${publisher.bookSet}">books</td>
+            </tr>
+        </table>
+    </div>
+    <div class="links">
+        <span><a href="/" title="Welcome Home Page">Home</a></span>
+    </div>
+</body>
