@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2ab19143-1fa6-4be8-9a03-9893f92417cd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Daniel Pinheiro &lt;danielpm1982@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YKQ6wZO4JKJQZ97d5DTJ2fnHm2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.24252874" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.danielpm1982.springboot2acdi.controller" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.danielpm1982.springboot2acdi.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.danielpm1982.springboot2acdi.controller" />
+      <recent name="com.danielpm1982.springboot2acdi.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PropertyInjectedControllerTest">
+    <configuration name="ConstructorInjectedControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot2-ac-di" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.danielpm1982.springboot2acdi.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.danielpm1982.springboot2acdi.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.danielpm1982.springboot2acdi.controller.ConstructorInjectedControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConstructorInjectedControllerTest.getGreeting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot2-ac-di" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.danielpm1982.springboot2acdi.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.danielpm1982.springboot2acdi.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.danielpm1982.springboot2acdi.controller.ConstructorInjectedControllerTest" />
+      <option name="METHOD_NAME" value="getGreeting" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PropertyInjectedControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot2-ac-di" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.danielpm1982.springboot2acdi.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.danielpm1982.springboot2acdi.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.danielpm1982.springboot2acdi.controller.PropertyInjectedControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetterInjectedControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot2-ac-di" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.danielpm1982.springboot2acdi.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.danielpm1982.springboot2acdi.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.danielpm1982.springboot2acdi.controller.SetterInjectedControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetterInjectedControllerTest.getGreeting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot2-ac-di" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.danielpm1982.springboot2acdi.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.danielpm1982.springboot2acdi.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.danielpm1982.springboot2acdi.controller.SetterInjectedControllerTest" />
+      <option name="METHOD_NAME" value="getGreeting" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot2AcDiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot2-ac-di" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.danielpm1982.springboot2acdi.Springboot2AcDiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PropertyInjectedControllerTest" />
+        <item itemvalue="JUnit.SetterInjectedControllerTest" />
+        <item itemvalue="JUnit.ConstructorInjectedControllerTest" />
+        <item itemvalue="JUnit.SetterInjectedControllerTest.getGreeting" />
+        <item itemvalue="JUnit.ConstructorInjectedControllerTest.getGreeting" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ab19143-1fa6-4be8-9a03-9893f92417cd" name="Default Changelist" comment="" />
+      <created>1582663779906</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582663779906</updated>
+      <workItem from="1582663781510" duration="14094000" />
+      <workItem from="1582688663895" duration="627000" />
+      <workItem from="1582690502005" duration="154000" />
+      <workItem from="1582690674528" duration="6872000" />
+      <workItem from="1582731944866" duration="2664000" />
+      <workItem from="1582734688776" duration="5003000" />
+      <workItem from="1582771838916" duration="5658000" />
+      <workItem from="1582822535172" duration="2394000" />
+      <workItem from="1582824949253" duration="690000" />
+      <workItem from="1582826682942" duration="214000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add basic Spring Boot 2 project structure">
+      <created>1582664640624</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582664640624</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update README.md">
+      <created>1582665212781</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582665212781</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update pom.xml">
+      <created>1582665282615</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582665282615</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add a sample @Controller class and get an instance of that automatically generated bean from the Application Context for calling its method and show the result">
+      <created>1582670900517</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582670900517</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add other 3 Controller classes, each demonstrating one of the three types of dependency injection... in this case, an injection of a GreetingService that is called from inside the Controller methods, returning to the method a greeting that is shown at the console when running the JUnit5 testing classes">
+      <created>1582684717415</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582684717415</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update the Springboot2AcDiApplication.java file with the description of this project functionalities">
+      <created>1582685210702</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582685210702</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update README.md and delete some useless spaces at the testing classes">
+      <created>1582685940722</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1582685940722</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add new features for letting Spring Container actually take care of the instantiation and injection of beans at the Controllers, according to the used stereotype annotations: @Service, @Component, @Controller and @Autowired">
+      <created>1582694488916</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1582694488916</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Refactor the service package to keep 3 distinct possible implementations of the bean to be injected at the Controllers according to the bean name passed to this new annotation @Qualifier">
+      <created>1582696521513</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1582696521513</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Correct spelling at main class explanation and refactor the test classes instantiation to correspond to each service implementation correctly, now that 3 different implementations exist">
+      <created>1582697562315</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1582697562315</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add the @Primary notation to the GreetingServiceConstructor.java class to set it as the primary impl of the GreetingService to be injected preferably if no @Qualifier is used at the injecting points, for instance, at the constructor injection of the ConstructorInjectedController.java class&#10;Refactor the ConstructorInjectedController.java class to comment the constructor that uses @Qualifier and write another one that uses no @Qualifier in order to test the @Primary notation of the bean being injected">
+      <created>1582733124689</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1582733124689</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Update main class explanation">
+      <created>1582734583746</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1582734583746</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add two new service implementations and controller for testing the multilang feature through @Profile annotation">
+      <created>1582750959364</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1582750959364</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Refactor the name of 3 of the implemented services, just to keep them more semantic;&#10;Do some final comments and explaining corrections at all the project.&#10;THIS PROJECT IS NOW CLOSED !">
+      <created>1582821539564</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1582821539564</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Update Main class description">
+      <created>1582824919941</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1582824919941</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Update Main class description">
+      <created>1582825387047</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1582825387047</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add basic Spring Boot 2 project structure" />
+    <MESSAGE value="Update README.md" />
+    <MESSAGE value="Update pom.xml" />
+    <MESSAGE value="Add sample @Controller class and get an instance of that bean from the Application Context for calling its method and show the result" />
+    <MESSAGE value="Add a sample @Controller class and get an instance of that automatically generated bean from the Application Context for calling its method and show the result" />
+    <MESSAGE value="Add other 3 Controller classes, each demonstrating one of the three types of dependency injection... in this case, an injection of a GreetingService that is called from inside the Controller methods, returning to the method a greeting that is shown at the console when running the JUnit5 testing classes" />
+    <MESSAGE value="Update the Springboot2AcDiApplication.java file with the description of this project functionalities" />
+    <MESSAGE value="Update README.md and delete some useless spaces at the testing classes" />
+    <MESSAGE value="Add new features for letting Spring Container actually take care of the instantiation and injection of beans at the Controllers, according to the used stereotype annotations: @Service, @Component, @Controller and @Autowired" />
+    <MESSAGE value="Refactor the service package to keep 3 distinct possible implementations of the bean to be injected at the Controllers according to the bean name passed to this new annotation @Qualifier" />
+    <MESSAGE value="Correct spelling at main class explanation and refactor the test classes instantiation to correspond to each service implementation correctly, now that 3 different implementations exist" />
+    <MESSAGE value="Add the @Primary notation to the GreetingServiceConstructor.java class to set it as the primary impl of the GreetingService to be injected preferably if no @Qualifier is used at the injecting points, for instance, at the constructor injection of the ConstructorInjectedController.java class&#10;Refactor the ConstructorInjectedController.java class to comment the constructor that uses @Qualifier and write another one that uses no @Qualifier in order to test the @Primary notation of the bean being injected" />
+    <MESSAGE value="Update main class explanation" />
+    <MESSAGE value="Add two new service implementations and controller for testing the multilang feature through @Profile annotation" />
+    <MESSAGE value="Refactor the name of 3 of the implemented services, just to keep them more semantic;&#10;Do some final comments and explaining corrections at all the project.&#10;THIS PROJECT IS NOW CLOSED !" />
+    <MESSAGE value="Update Main class description" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Main class description" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="768" y="252" width="374" height="582" key="#com.intellij.ide.util.MemberChooser" timestamp="1582679388796">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="768" y="252" width="374" height="582" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1582679388796" />
+    <state x="522" y="136" width="866" height="814" key="CommitChangelistDialog2" timestamp="1582825386911">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="522" y="136" width="866" height="814" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1582825386911" />
+    <state width="1874" height="284" key="GridCell.Tab.0.bottom" timestamp="1582821587160">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582821587160" />
+    <state width="1874" height="284" key="GridCell.Tab.0.center" timestamp="1582821587160">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="284" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582821587160" />
+    <state width="1874" height="284" key="GridCell.Tab.0.left" timestamp="1582821587160">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="284" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582821587160" />
+    <state width="1874" height="284" key="GridCell.Tab.0.right" timestamp="1582821587160">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="284" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582821587160" />
+    <state width="1874" height="284" key="GridCell.Tab.1.bottom" timestamp="1582750972031">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="284" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582750972031" />
+    <state width="1874" height="284" key="GridCell.Tab.1.center" timestamp="1582750972030">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="284" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582750972030" />
+    <state width="1874" height="284" key="GridCell.Tab.1.left" timestamp="1582750972030">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="284" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582750972030" />
+    <state width="1874" height="284" key="GridCell.Tab.1.right" timestamp="1582750972031">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="284" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582750972031" />
+    <state x="310" y="94" width="1267" height="852" key="SettingsEditor" timestamp="1582772272989">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="310" y="94" width="1267" height="852" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1582772272989" />
+    <state x="100" y="100" width="1720" height="880" key="ShowDiffWithBranchDialog" timestamp="1582664945912">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="100" y="100" width="1720" height="880" key="ShowDiffWithBranchDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582664945912" />
+    <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1582825389240">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1582825389240" />
+    <state x="100" y="100" width="1720" height="880" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1582664932824">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="100" y="100" width="1720" height="880" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582664932824" />
+    <state x="724" y="460" width="471" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582825633462">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="724" y="460" width="471" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1582825633462" />
+    <state x="632" y="260" width="645" height="573" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582682845867">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="632" y="260" width="645" height="573" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582682845867" />
+  </component>
+</project>
