@@ -32,7 +32,7 @@ public class Springboot2AcDiApplication {
 
 /*
 *****PROJECT DESCRIPTION:*****
-(GitHub project link: https://github.com/danielpm1982/springboot-ac-di)
+(GitHub project link: https://github.com/danielpm1982/springboot2-ac-di)
 */
 
 /*
@@ -46,7 +46,7 @@ and test annotations. For more info read the project comments at each class, mai
 For more info about this project features read the comments at this class and at other classes of this project.
 
 When using this application, you willingly agree to comply with the Copyright© License at the following GitHub
-link: https://github.com/danielpm1982/springboot-ac-di/blob/master/README.md .
+link: https://github.com/danielpm1982/springboot2-ac-di/blob/master/README.md .
 
 This application code is solely for individual learning purposes and is NOT INTENDED FOR ANY KIND OF COMMERCIAL
 USE, nor has warranty of any type (for more info, read the Copyright© License above).
