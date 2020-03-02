@@ -22,4 +22,7 @@ create view view_book_author as select * from (select book_id, isbn, title, publ
 select * from view_book_author;
 select * from view_book_publisher;
 select vba.book_id, vba.isbn, vba.title, vba.publisher_fk, publisher_id, name, address, city, state, country, book_fk, author_fk, author_id, first_name, last_name  from view_book_author vba join view_book_publisher vbp on vba.book_id=vbp.book_id;
+
+See the DB-state-result.png file for a picture of the DB state after running this main class (and the BootstrapData one) and after accessing the DB instance and using the sql above.
+See also the web-view png pictures about when accessing the application via http://localhost:8080 at the browser.
 */

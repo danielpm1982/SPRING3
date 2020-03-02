@@ -12,7 +12,7 @@
     <artifactId>springboot2-bookcatalog</artifactId>
     <version>1.0.0</version>
     <name>springboot2-bookcatalog</name>
-    <description>A book catalog web MVC application developed with Springboot2</description>
+    <description>This is a Book Catalog Web MVC application developed with Spring Boot 2</description>
     <properties>
         <java.version>13</java.version>
     </properties>
