@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Catalog</title>
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+</head>
+<body>
+    <h1>Welcome to the Book Catalog !</h1>
+    <h3 th:text="${dateTime}"></h3>
+    <div class="links">
+        <span><a href="/books" title="list all books from the H2 in-memory DB">List all Books</a></span>
+        <span><a href="/authors" title="list all authors from the H2 in-memory DB">List all Authors</a></span>
+        <span><a href="/publishers" title="list all publishers from the H2 in-memory DB">List all Publishers</a></span>
+    </div>
+    <footer>
+        <p>Developed by:</p>
+        <a href="http://www.danielpm1982.com">http://www.danielpm1982.com</a>
+        <br>
+        <a href="mailto:danielpm1982.com@domainsbyproxy.com">danielpm1982.com@domainsbyproxy.com</a>
+    </footer>
+</body>

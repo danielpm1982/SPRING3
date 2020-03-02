@@ -1,0 +1,12 @@
+com/danielpm1982/bookcatalog/domain/Publisher.class
+com/danielpm1982/bookcatalog/controller/BookController.class
+com/danielpm1982/bookcatalog/BookcatalogApplication.class
+com/danielpm1982/bookcatalog/bootstrap/BootstrapData.class
+com/danielpm1982/bookcatalog/controller/WelcomeController.class
+com/danielpm1982/bookcatalog/repository/PublisherRepository.class
+com/danielpm1982/bookcatalog/controller/PublisherController.class
+com/danielpm1982/bookcatalog/domain/Book.class
+com/danielpm1982/bookcatalog/repository/BookRepository.class
+com/danielpm1982/bookcatalog/domain/Author.class
+com/danielpm1982/bookcatalog/controller/AuthorController.class
+com/danielpm1982/bookcatalog/repository/AuthorRepository.class

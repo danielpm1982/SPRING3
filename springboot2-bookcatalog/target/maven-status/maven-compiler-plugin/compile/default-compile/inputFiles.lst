@@ -1,0 +1,12 @@
+/home/daniel/intellij-workspace/bookcatalog/src/main/java/com/danielpm1982/bookcatalog/controller/WelcomeController.java
+/home/daniel/intellij-workspace/bookcatalog/src/main/java/com/danielpm1982/bookcatalog/controller/AuthorController.java
+/home/daniel/intellij-workspace/bookcatalog/src/main/java/com/danielpm1982/bookcatalog/repository/AuthorRepository.java
+/home/daniel/intellij-workspace/bookcatalog/src/main/java/com/danielpm1982/bookcatalog/controller/PublisherController.java
+/home/daniel/intellij-workspace/bookcatalog/src/main/java/com/danielpm1982/bookcatalog/controller/BookController.java
+/home/daniel/intellij-workspace/bookcatalog/src/main/java/com/danielpm1982/bookcatalog/repository/PublisherRepository.java
+/home/daniel/intellij-workspace/bookcatalog/src/main/java/com/danielpm1982/bookcatalog/domain/Publisher.java
+/home/daniel/intellij-workspace/bookcatalog/src/main/java/com/danielpm1982/bookcatalog/bootstrap/BootstrapData.java
+/home/daniel/intellij-workspace/bookcatalog/src/main/java/com/danielpm1982/bookcatalog/BookcatalogApplication.java
+/home/daniel/intellij-workspace/bookcatalog/src/main/java/com/danielpm1982/bookcatalog/repository/BookRepository.java
+/home/daniel/intellij-workspace/bookcatalog/src/main/java/com/danielpm1982/bookcatalog/domain/Book.java
+/home/daniel/intellij-workspace/bookcatalog/src/main/java/com/danielpm1982/bookcatalog/domain/Author.java

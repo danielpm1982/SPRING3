@@ -1,0 +1,83 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+    background-color: black;
+    color: blanchedalmond;
+    margin-top: 3em;
+    margin-bottom: 6em;
+}
+.centralContent{
+    width: 70%;
+    margin: auto;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    padding: 1em;
+}
+.links{
+    width: 70%;
+    margin: auto;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+span{
+    margin-right: 2em;
+}
+a{
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-decoration: none;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 0.5em 0.8em 0.5em 0.8em;
+}
+a:link{
+    color: green;
+}
+a:visited{
+    color: teal;
+}
+a:hover{
+    color: lime;
+}
+a:active{
+    color: red;
+}
+table{
+    color: black;
+    border-collapse: collapse;
+}
+tr:nth-child(2n){
+    background-color: darkgrey;
+}
+tr:nth-child(2n+1){
+    background-color: lightgray;
+}
+td{
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    border: blue solid thin;
+}
+th{
+    padding: 1em 2em 1em 2em;
+    border: blue solid medium;
+    background-color: lightsteelblue;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+footer{
+    font-size: 1.2em;
+    width: 70%;
+    margin: auto;
+    line-height: 2;
+}
+footer p{
+    margin-top: 6em;
+    margin-bottom: -0.025em;
+}
+footer a{
+    font-weight: lighter;
+    background-color: black;
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 2;
+}
