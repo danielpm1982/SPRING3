@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="800c3f02-8b8f-4db7-babf-8ec4c996a06b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YUmy30Mhwx6LamatMNNepOHM7S" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/danielpm1982/springboot2meetingmng/test" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.danielpm1982.springboot2meetingmng.service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/img" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/banner" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/danielpm1982/springboot2meetingmng/test" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.danielpm1982.springboot2meetingmng.controller" />
+      <recent name="com.danielpm1982.springboot2meetingmng.modelAttribute" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/danielpm1982/springboot2meetingmng/test" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/img" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/banner" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/danielpm1982/springboot2meetingmng/modelAttribute" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Springboot2MeetingmngApplication">
+    <configuration name="Meeting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.danielpm1982.springboot2meetingmng.domain.Meeting" />
+      <module name="springboot2-meetingmng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.danielpm1982.springboot2meetingmng.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MeetingManagerServiceInterfaceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot2-meetingmng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.danielpm1982.springboot2meetingmng.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.danielpm1982.springboot2meetingmng.service" />
+      <option name="MAIN_CLASS_NAME" value="com.danielpm1982.springboot2meetingmng.service.MeetingManagerServiceInterfaceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MeetingManagerServiceInterfaceTest.findAllMeetings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot2-meetingmng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.danielpm1982.springboot2meetingmng.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.danielpm1982.springboot2meetingmng.service" />
+      <option name="MAIN_CLASS_NAME" value="com.danielpm1982.springboot2meetingmng.service.MeetingManagerServiceInterfaceTest" />
+      <option name="METHOD_NAME" value="findAllMeetings" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MeetingManagerServiceInterfaceTest.findEventById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot2-meetingmng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.danielpm1982.springboot2meetingmng.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.danielpm1982.springboot2meetingmng.service" />
+      <option name="MAIN_CLASS_NAME" value="com.danielpm1982.springboot2meetingmng.service.MeetingManagerServiceInterfaceTest" />
+      <option name="METHOD_NAME" value="findEventById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MeetingManagerServiceInterfaceTest.findMeetingById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot2-meetingmng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.danielpm1982.springboot2meetingmng.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.danielpm1982.springboot2meetingmng.service" />
+      <option name="MAIN_CLASS_NAME" value="com.danielpm1982.springboot2meetingmng.service.MeetingManagerServiceInterfaceTest" />
+      <option name="METHOD_NAME" value="findMeetingById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot2MeetingmngApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot2-meetingmng" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.danielpm1982.springboot2meetingmng.Springboot2MeetingmngApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MeetingManagerServiceInterfaceTest.findMeetingById" />
+        <item itemvalue="JUnit.MeetingManagerServiceInterfaceTest.findAllMeetings" />
+        <item itemvalue="JUnit.MeetingManagerServiceInterfaceTest" />
+        <item itemvalue="JUnit.MeetingManagerServiceInterfaceTest.findEventById" />
+        <item itemvalue="Application.Meeting" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="800c3f02-8b8f-4db7-babf-8ec4c996a06b" name="Default Changelist" comment="" />
+      <created>1583005797939</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583005797939</updated>
+      <workItem from="1583005801404" duration="29580000" />
+      <workItem from="1583120560110" duration="20471000" />
+      <workItem from="1583141615437" duration="103000" />
+      <workItem from="1583143023159" duration="672000" />
+      <workItem from="1583143732193" duration="265000" />
+      <workItem from="1583144020194" duration="25000" />
+      <workItem from="1583173457528" duration="10000" />
+      <workItem from="1583173580523" duration="16000" />
+      <workItem from="1583173626926" duration="225000" />
+      <workItem from="1583177041076" duration="2000" />
+      <workItem from="1583177640069" duration="330000" />
+      <workItem from="1583182803531" duration="4000" />
+      <workItem from="1583199581133" duration="17651000" />
+      <workItem from="1583251951337" duration="5669000" />
+      <workItem from="1583274005199" duration="309000" />
+      <workItem from="1583280696117" duration="12176000" />
+      <workItem from="1583328278435" duration="36757000" />
+      <workItem from="1583425805165" duration="2992000" />
+      <workItem from="1583429334625" duration="3974000" />
+      <workItem from="1583433334315" duration="19562000" />
+      <workItem from="1583460095045" duration="3525000" />
+      <workItem from="1583465573410" duration="95000" />
+      <workItem from="1583465712868" duration="421000" />
+      <workItem from="1583466156901" duration="100000" />
+      <workItem from="1583466320220" duration="175000" />
+      <workItem from="1583466839339" duration="473000" />
+      <workItem from="1583516352542" duration="28000" />
+      <workItem from="1583516427090" duration="942000" />
+      <workItem from="1583517973324" duration="796000" />
+      <workItem from="1583518790286" duration="552000" />
+      <workItem from="1583519361891" duration="281000" />
+      <workItem from="1583519668292" duration="444000" />
+      <workItem from="1583528762794" duration="3347000" />
+      <workItem from="1583532133456" duration="85000" />
+      <workItem from="1583546604444" duration="4367000" />
+      <workItem from="1583551040419" duration="13002000" />
+      <workItem from="1583564595405" duration="3177000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add basic Spring Boot 2 project structure">
+      <created>1583006332271</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583006332271</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Create domain model entity classes and ageCalculator class. closes issue #1">
+      <created>1583030114288</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583030114288</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Create domain model entity classes and ageCalculator class. closes #1">
+      <created>1583032212813</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583032212813</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Annotate @Entity classes with persistence annotations. Not tested yet. May need to be refactored when tested. closes #2">
+      <created>1583041467721</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583041467721</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Create @Repository interface and extend from CrudRepository interface. Add custom JPQL Queries. closes #3">
+      <created>1583044517336</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583044517336</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Create @Service interface and concrete class, injecting all four @Repository interfaces and turning all methods available from this @Service interface/class. Not tested yet. May need to be refactored when tested. closes #4">
+      <created>1583049289329</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583049289329</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Refactor domain classes to add fetch=FetchType.EAGER to avoid lazy fetch errors&#10;Refactor domain classes toString() methods to take out properties that would lead to cyclic calls and call stack errors&#10;Add to the Service interface and Service impl class the add methods for each entity&#10;Create an improvised Test class for testing the Services. Later, if necessary, change it to a JUnit5 test class. Test the Services.&#10;Add application.properties for accessing H2 DB from browser at /h2 mapping path. Test the DB tables and registries using the H2 GUI.&#10;closes #5">
+      <created>1583141100557</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583141100557</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add png files with the DB state after running the test for the @Service&#10;Update Main class and test class explaining texts">
+      <created>1583143667304</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1583143667304</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Create @Controller classes to use the @Service interface as an injected bean. closes #6&#10;Create HTML templates with Thymeleaf, create the ModelAttribute classes and set the CSS properties. closes #7&#10;Test MVC application at the browser and make some refactoring at the Controllers for a more clean code. closes #8&#10;Update Main class explanation">
+      <created>1583463599433</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1583463599433</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add missing test printscreen picture">
+      <created>1583465826387</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1583465826387</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Fix Welcome page title&#10;Fix POM project description">
+      <created>1583467094378</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1583467094378</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add new home page printscreen picture">
+      <created>1583467278509</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1583467278509</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Change Spring Boot 2 banner text for a custom danielpm1982.com text. closes #9">
+      <created>1583520100741</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1583520100742</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add individual Meeting view page for showing detailed data. Refactor Controller for adding this functionality.&#10;closes #10&#10;&#10;Refactor the Meeting list table to show only basic short values and icon link to the individual entity view, where the details are to be shown.&#10;Include an icon link at other entity lists pages as well for showing detailed Meeting info if clicked, leaving only basic info at first.&#10;closes #11&#10;&#10;Change the toString methods of Entities for a more natural String return.&#10;&#10;Change the result view at each result cell for all entity tables, for better view.&#10;&#10;Change the Welcome page and exclude the buttons, leaving only the imgs to be clicked, for a more modern view">
+      <created>1583568027237</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1583568027238</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add basic Spring Boot 2 project structure" />
+    <MESSAGE value="Create domain model entity classes and ageCalculator class. closes issue #1" />
+    <MESSAGE value="Create domain model entity classes and ageCalculator class. closes #1" />
+    <MESSAGE value="Annotate @Entity classes with persistence annotations. closes #2" />
+    <MESSAGE value="Annotate @Entity classes with persistence annotations. Not tested yet. May need to be refactored when tested. closes #2" />
+    <MESSAGE value="Create @Repository interface and extend from CrudRepository interface. Add custom JPQL Queries. closes #3" />
+    <MESSAGE value="Create @Service interface and concrete class, injecting all four @Repository interfaces and turning all methods available from this @Service interface/class. Not tested yet. May need to be refactored when tested. closes #4" />
+    <MESSAGE value="Refactor domain classes to add fetch=FetchType.EAGER to avoid lazy fetch errors&#10;Refactor domain classes toString() methods to take out properties that would lead to cyclic calls and call stack errors&#10;Add to the Service interface and Service impl class the add methods for each entity&#10;Create an improvised Test class for testing the Services. Later, if necessary, change it to a JUnit5 test class. Test the Services.&#10;Add application.properties for accessing H2 DB from browser at /h2 mapping path. Test the DB tables and registries using the H2 GUI.&#10;closes #5" />
+    <MESSAGE value="Add png files with the DB state after running the test for the @Service&#10;Update Main class and test class explaining texts" />
+    <MESSAGE value="Create @Controller classes to use the @Service interface as an injected bean. closes #6&#10;Create HTML templates with Thymeleaf, create the ModelAttribute classes and set the CSS properties. closes #7&#10;Test MVC application at the browser and make some refactoring at the Controllers for a more clean code. closes #8&#10;Update Main class explanation" />
+    <MESSAGE value="Add missing test printscreen picture" />
+    <MESSAGE value="Fix Welcome page title&#10;Fix POM project description" />
+    <MESSAGE value="Add new home page printscreen picture" />
+    <MESSAGE value="Change Spring Boot 2 banner text for a custom danielpm1982.com text. closes #9" />
+    <MESSAGE value="Add individual Meeting view page for showing detailed data. Refactor Controller for adding this functionality.&#10;closes #10&#10;&#10;Refactor the Meeting list table to show only basic short values and icon link to the individual entity view, where the details are to be shown.&#10;Include an icon link at other entity lists pages as well for showing detailed Meeting info if clicked, leaving only basic info at first.&#10;closes #11&#10;&#10;Change the toString methods of Entities for a more natural String return.&#10;&#10;Change the result view at each result cell for all entity tables, for better view.&#10;&#10;Change the Welcome page and exclude the buttons, leaving only the imgs to be clicked, for a more modern view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add individual Meeting view page for showing detailed data. Refactor Controller for adding this functionality.&#10;closes #10&#10;&#10;Refactor the Meeting list table to show only basic short values and icon link to the individual entity view, where the details are to be shown.&#10;Include an icon link at other entity lists pages as well for showing detailed Meeting info if clicked, leaving only basic info at first.&#10;closes #11&#10;&#10;Change the toString methods of Entities for a more natural String return.&#10;&#10;Change the result view at each result cell for all entity tables, for better view.&#10;&#10;Change the Welcome page and exclude the buttons, leaving only the imgs to be clicked, for a more modern view" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="768" y="244" width="554" height="634" key="#com.intellij.ide.util.MemberChooser" timestamp="1583438182658">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="768" y="244" width="554" height="634" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1583438182658" />
+    <state x="1190" y="0" width="720" height="1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583252355834">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1190" y="0" width="720" height="1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583252355834" />
+    <state x="693" y="289" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583564550896">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="693" y="289" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583564550896" />
+    <state x="490" y="84" width="929" height="919" key="CommitChangelistDialog2" timestamp="1583568026503">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="490" y="84" width="929" height="919" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1583568026503" />
+    <state x="100" y="100" width="1720" height="880" key="DiffContextDialog" timestamp="1583559205772">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="100" y="100" width="1720" height="880" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583559205772" />
+    <state x="743" y="298" width="424" height="491" key="FileChooserDialogImpl" timestamp="1583559142471">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="743" y="298" width="424" height="491" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1583559142471" />
+    <state width="1874" height="356" key="GridCell.Tab.0.bottom" timestamp="1583568093653">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="356" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1583568093653" />
+    <state width="1874" height="356" key="GridCell.Tab.0.center" timestamp="1583568093652">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="356" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1583568093652" />
+    <state width="1874" height="356" key="GridCell.Tab.0.left" timestamp="1583568093652">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="356" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1583568093652" />
+    <state width="1874" height="356" key="GridCell.Tab.0.right" timestamp="1583568093652">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="356" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583568093652" />
+    <state width="1874" height="356" key="GridCell.Tab.1.bottom" timestamp="1583568093654">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="356" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1583568093654" />
+    <state width="1874" height="356" key="GridCell.Tab.1.center" timestamp="1583568093653">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="356" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1583568093653" />
+    <state width="1874" height="356" key="GridCell.Tab.1.left" timestamp="1583568093653">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="356" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1583568093653" />
+    <state width="1874" height="356" key="GridCell.Tab.1.right" timestamp="1583568093653">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="356" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583568093653" />
+    <state x="443" y="117" width="1024" height="852" key="SettingsEditor" timestamp="1583006875186">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="443" y="117" width="1024" height="852" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1583006875186" />
+    <state x="100" y="100" width="1720" height="880" key="ShowDiffWithBranchDialog" timestamp="1583120936846">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="100" y="100" width="1720" height="880" key="ShowDiffWithBranchDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583120936846" />
+    <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1583568030308">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1583568030308" />
+    <state x="100" y="100" width="1720" height="880" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1583177936499">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="100" y="100" width="1720" height="880" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583177936499" />
+    <state x="728" y="460" width="464" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583517860838">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="728" y="460" width="464" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1583517860838" />
+    <state x="616" y="230" width="678" height="626" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583129759243">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="616" y="230" width="678" height="626" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583129759243" />
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1583428218390">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1583428218390" />
+    <state x="685" y="452" width="540" height="182" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1583207914938">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="685" y="452" width="540" height="182" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583207914938" />
+  </component>
+</project>
